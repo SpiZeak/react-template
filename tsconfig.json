@@ -16,7 +16,16 @@
       ],
       "@utils/*": [
         "utils/*"
-      ]
+      ],
+      "@app/*": [
+        "app/*"
+      ],
+      "@common/*": [
+        "common/*"
+      ],
+      "@features/*": [
+        "features/*"
+      ],
     }
   },
   "files": [],
