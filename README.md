@@ -8,4 +8,4 @@ This template provides the following:
 - **Vite v6**
 - **Vite PWA**
 - **SCSS Modules**
-- **Best practices folder structure + example filename definitions **
+- **Best practices folder structure + example filename definitions**
