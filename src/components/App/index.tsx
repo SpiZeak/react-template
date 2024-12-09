@@ -2,19 +2,20 @@ import reactLogo from '@assets/images/react.svg';
 import viteLogo from '/vite.svg';
 import styles from './App.module.scss';
 import { useSelector, useDispatch } from 'react-redux';
-import { increment } from '../../features/counter/counterSlice';
+import { RootState } from '@app/store';
+import { increment } from '@features/counter/counterSlice';
 
 function App() {
-  const count = useSelector(state => state.counter.value);
+  const count = useSelector((state: RootState) => state.counter.value);
   const dispatch = useDispatch();
 
   return (
     <>
       <div>
-        <a href='https://vite.dev' target='_blank'>
+        <a href='https://vite.dev' target='_blank' rel='noreferrer'>
           <img src={viteLogo} className={styles.logo} alt='Vite logo' />
         </a>
-        <a href='https://react.dev' target='_blank'>
+        <a href='https://react.dev' target='_blank' rel='noreferrer'>
           <img
             src={reactLogo}
             className={`${styles.logo} ${styles.react}`}
