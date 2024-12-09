@@ -29,7 +29,7 @@ This template provides the following:
 ```bash
 .
 ├── 📂 public/                   	# Static assets
-├── 📂 src/
+└── 📂 src/
     ├── 📂 app/
     │   ├── 📄 main.tsx          	# Entry point
     │   ├── 📄 router.tsx        	# Router configuration
@@ -45,7 +45,7 @@ This template provides the following:
     ├── 📂 features/             	# Redux features
     │   └── 📂 counter/
     │       └── 📄 counterSlice.ts
-    ├── 📂 pages/                	# Router paths
+    └── 📂 pages/                	# Router paths
         └── 📄 Home.tsx
 ```
 
